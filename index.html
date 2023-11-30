@@ -1,18 +1,3 @@
-<?php session_start(); ?>
-
-<?php 
-    $chamados = array();
-
-    $arquivo = fopen('pag/principais.txt', 'r');
-
-    while(!feof($arquivo)){
-        $registro = fgets($arquivo);
-        $chamados[] = $registro;
-    }
-
-    fclose($arquivo);
-?>
-
 <!DOCTYPE html>
 <html lang="pt-br">
     <head>
