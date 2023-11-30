@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+*{
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    font-family: 'Inter', sans-serif;
+}
+.container{
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 0 5;
+    justify-content: center;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+nav ul a{
+    color: white;
+    margin: 0 20px;
+    text-transform: uppercase;
+    font-size: 14px;
+    display: block;
+}
+nav ul a::after{
+    content: "";
+    background-color: white;
+    height: 3px;
+    width: 0%;
+    display: block;
+    margin: 0 auto;
+    transition: 0.3s;
+}
+nav ul a:hover::after{
+    width:100%;
+}
+.login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    background-color: #003cff;
+    padding: 10px;
+    margin-top: 120px;
+    width: 320px;
+    height: 400px;
+    text-align: center;
+    border-radius: 3px;
+    box-shadow: 1px 1px 5px #000000;
+    justify-content: center;
+}
+.card h1{
+    color: #ffffff;
+    margin: 5px 0;
+}
+.card .caixa-txt{
+    width: 300px;
+    border: none;
+    padding: 5px;
+    margin: 4px 0;
+    border-radius: 2px;
+    box-shadow: 1px 1px 3px #000000;
+}
+.caixa-txt::placeholder{
+    color: #000000;
+}
+.card .btn{
+    border: none;
+    padding: 7px;
+    background-color: #0000ff;
+    color: #ffffff;
+    font-size: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    margin: 5px;
+    box-shadow: 1px 1px 2px #000000;
+}
+.btn:hover{
+    background-color: #0000ad;
+}
+.card p{
+    color: #ffffff;
+    margin: 5px 0;
+    font-size: 13px;
+    text-align: left;
+}
+.card a{
+    color: #000000;
+    transition: 0.3s;
+}
+.card a:hover{
+    color: #ffffff;
+}
