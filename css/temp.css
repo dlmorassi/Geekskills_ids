@@ -16,7 +16,6 @@ body{
     padding: 0 5;
 }
 .footer{
-    background-color: #000000;
     text-align: center;
     margin: 0;
 }
@@ -40,14 +39,17 @@ body{
 }
 .warn{
     font-size: 30px;
+    margin: 15px 0 0;
 }
 .tit{
     font-size: 20px;
+    margin: 15px 0 0;
 }
 .conteudo a{
     color: #ffffff;
     font-size: 15px;
     transition: 0.7s;
+    margin: 15px 0 0;
 }
 .conteudo a:hover{
     color: #00eaff;
