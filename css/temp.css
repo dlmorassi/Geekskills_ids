@@ -15,12 +15,12 @@ body{
     margin: 0 auto;
     padding: 0 5;
 }
-.footer{
+footer{
     text-align: center;
     margin: 0;
     position: fixed;
 }
-.footer i{
+footer i{
     color: #57c1ff;
     margin: 20px 5px;
     font-size: 19px;
@@ -29,7 +29,7 @@ body{
     border-radius: 10px;
     transition: 0.5s;
 }
-.footer i:hover{
+footer i:hover{
     color: #ffffff;
 }
 .conteudo{
