@@ -7,3 +7,46 @@
     outline: none;
     font-family: 'Inter', sans-serif;
 }
+body{
+    background-color: #235bf7;
+}
+.container{
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 0 5;
+}
+.footer{
+    background-color: #235bf7;
+    text-align: center;
+    margin: 0;
+}
+.footer i{
+    color: #57c1ff;
+    margin: 20px 5px;
+    font-size: 19px;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+.footer i:hover{
+    color: #ffffff;
+}
+.conteudo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.warn{
+    font-size: 50px;
+}
+.tit{
+    font-size: 30px;
+}
+.conteudo a{
+    color: #ffffff;
+    font-size: 20px;
+}
+.conteudo a:hover{
+    color: #00eaff;
+}
